@@ -1,0 +1,6 @@
+{
+  "watch": ["_config.yml", "_config.butterfly.yml"],
+  "ignore": ["node_modules/", "public/", ".git/"],
+  "exec": "hexo clean && hexo server",
+  "ext": "yml,yaml"
+}
